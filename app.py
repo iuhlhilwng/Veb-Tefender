@@ -10,17 +10,17 @@ app = Flask(__name__)
 CANALES_CONFIG = [
     {
         "nombre": "ESPN", 
-        "url_web": "https://tu-pagina-real.com/espn", # ← TU URL #1
+        "url_web": "https://la14hd.com/vivo/canales.php?stream=espn", # ← TU URL #1
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Espn_logo.png/640px-Espn_logo.png"
     },
     {
         "nombre": "FOX SPORTS", 
-        "url_web": "https://tu-pagina-real.com/foxsports", # ← TU URL #2
+        "url_web": "https://la14hd.com/vivo/canales.php?stream=foxsports", # ← TU URL #2
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fox_Sports_logo.svg/640px-Fox_Sports_logo.svg.png"
     },
     {
         "nombre": "DSports", 
-        "url_web": "https://tu-pagina-real.com/dsports", # ← TU URL #3
+        "url_web": "https://la14hd.com/vivo/canales.php?stream=dsports", # ← TU URL #3
         "logo": "https://via.placeholder.com/300x150/FF0000/FFFFFF?text=DSports"
     }
     # ➕ MÁS CANALES: copia bloque arriba
